@@ -1,2 +1,2 @@
-# bingecheck
+# BingeCheck
 Insight into tv shows
