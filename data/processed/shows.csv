@@ -1,0 +1,51 @@
+tconst,titleType,primaryTitle,originalTitle,isAdult,startYear,endYear,runtimeMinutes,genres,averageRating,numVotes
+tt0944947,tvSeries,Game of Thrones,Game of Thrones,0,2011,2019,60,"['Action', 'Adventure', 'Drama']",9.2,2457560
+tt0903747,tvSeries,Breaking Bad,Breaking Bad,0,2008,2013,45,"['Crime', 'Drama', 'Thriller']",9.5,2363527
+tt4574334,tvSeries,Stranger Things,Stranger Things,0,2016,2025,60,"['Drama', 'Fantasy', 'Horror']",8.6,1465591
+tt0108778,tvSeries,Friends,Friends,0,1994,2004,22,"['Comedy', 'Romance']",8.9,1152997
+tt1520211,tvSeries,The Walking Dead,The Walking Dead,0,2010,2022,45,"['Drama', 'Horror', 'Thriller']",8.1,1152048
+tt1475582,tvSeries,Sherlock,Sherlock,0,2010,2017,90,"['Crime', 'Drama', 'Mystery']",9.0,1055134
+tt7366338,tvMiniSeries,Chernobyl,Chernobyl,0,2019,2019,60,"['Drama', 'History', 'Thriller']",9.3,962727
+tt0898266,tvSeries,The Big Bang Theory,The Big Bang Theory,0,2007,2019,22,"['Comedy', 'Romance']",8.1,913646
+tt0773262,tvSeries,Dexter,Dexter,0,2006,2013,60,"['Crime', 'Drama', 'Mystery']",8.6,857216
+tt1190634,tvSeries,The Boys,The Boys,0,2019,,60,"['Action', 'Comedy', 'Crime']",8.6,790174
+tt0386676,tvSeries,The Office,The Office,0,2005,2013,22,['Comedy'],9.0,784357
+tt0460649,tvSeries,How I Met Your Mother,How I Met Your Mother,0,2005,2014,23,"['Comedy', 'Drama', 'Romance']",8.3,763127
+tt3032476,tvSeries,Better Call Saul,Better Call Saul,0,2015,2022,45,"['Crime', 'Drama']",9.0,746464
+tt2442560,tvSeries,Peaky Blinders,Peaky Blinders,0,2013,2022,60,"['Crime', 'Drama']",8.7,721854
+tt2356777,tvSeries,True Detective,True Detective,0,2014,,60,"['Crime', 'Drama', 'Mystery']",8.9,711831
+tt2085059,tvSeries,Black Mirror,Black Mirror,0,2011,,60,"['Crime', 'Drama', 'Mystery']",8.7,702928
+tt10919420,tvSeries,Squid Game,Ojing-eo geim,0,2021,2025,60,"['Action', 'Crime', 'Drama']",8.0,701347
+tt3581920,tvSeries,The Last of Us,The Last of Us,0,2023,,50,"['Action', 'Adventure', 'Drama']",8.5,685083
+tt2861424,tvSeries,Rick and Morty,Rick and Morty,0,2013,,23,"['Adventure', 'Animation', 'Comedy']",9.1,660271
+tt0411008,tvSeries,Lost,Lost,0,2004,2010,45,"['Adventure', 'Drama', 'Fantasy']",8.3,648369
+tt0455275,tvSeries,Prison Break,Prison Break,0,2005,2017,44,"['Action', 'Crime', 'Drama']",8.3,635227
+tt8111088,tvSeries,The Mandalorian,The Mandalorian,0,2019,,40,"['Action', 'Adventure', 'Fantasy']",8.6,631574
+tt2560140,tvSeries,Attack on Titan,Shingeki no Kyojin,0,2013,2023,24,"['Action', 'Adventure', 'Animation']",9.1,628521
+tt10048342,tvMiniSeries,The Queen's Gambit,The Queen's Gambit,0,2020,2020,60,['Drama'],8.5,625868
+tt2306299,tvSeries,Vikings,Vikings,0,2013,2020,45,"['Action', 'Adventure', 'Drama']",8.5,621527
+tt5180504,tvSeries,The Witcher,The Witcher,0,2019,,60,"['Action', 'Adventure', 'Drama']",7.9,598336
+tt6468322,tvSeries,Money Heist,La casa de papel,0,2017,2021,60,"['Action', 'Crime', 'Drama']",8.2,577239
+tt0185906,tvMiniSeries,Band of Brothers,Band of Brothers,0,2001,2001,60,"['Action', 'Drama', 'History']",9.4,567519
+tt0412142,tvSeries,House,House M.D.,0,2004,2012,45,['Drama'],8.7,566283
+tt0475784,tvSeries,Westworld,Westworld,0,2016,2022,60,"['Drama', 'Mystery', 'Sci-Fi']",8.4,549871
+tt1856010,tvSeries,House of Cards,House of Cards,0,2013,2018,50,"['Drama', 'Thriller']",8.6,549124
+tt0141842,tvSeries,The Sopranos,The Sopranos,0,1999,2007,60,"['Crime', 'Drama']",9.2,534064
+tt1442437,tvSeries,Modern Family,Modern Family,0,2009,2020,22,"['Comedy', 'Drama', 'Romance']",8.5,520940
+tt1632701,tvSeries,Suits,Suits,0,2011,2019,45,"['Comedy', 'Drama']",8.4,518868
+tt0460681,tvSeries,Supernatural,Supernatural,0,2005,2020,44,"['Drama', 'Fantasy', 'Horror']",8.4,516803
+tt3322312,tvSeries,Daredevil,Daredevil,0,2015,2018,60,"['Action', 'Crime', 'Drama']",8.6,510198
+tt2707408,tvSeries,Narcos,Narcos,0,2015,2017,50,"['Biography', 'Crime', 'Drama']",8.7,505878
+tt5753856,tvSeries,Dark,Dark,0,2017,2020,60,"['Crime', 'Drama', 'Mystery']",8.7,499411
+tt11198330,tvSeries,House of the Dragon,House of the Dragon,0,2022,,60,"['Action', 'Adventure', 'Drama']",8.3,482629
+tt2193021,tvSeries,Arrow,Arrow,0,2012,2020,42,"['Action', 'Adventure', 'Crime']",7.5,455506
+tt9140554,tvSeries,Loki,Loki,0,2021,2023,50,"['Action', 'Adventure', 'Fantasy']",8.2,450727
+tt2802850,tvSeries,Fargo,Fargo,0,2014,2024,60,"['Crime', 'Drama', 'Thriller']",8.8,447985
+tt4158110,tvSeries,Mr. Robot,Mr. Robot,0,2015,2019,45,"['Crime', 'Drama', 'Thriller']",8.5,446197
+tt0877057,tvSeries,Death Note,Death Note: Desu nôto,0,2006,2007,24,"['Animation', 'Crime', 'Drama']",8.9,434573
+tt7631058,tvSeries,The Lord of the Rings: The Rings of Power,The Lord of the Rings: The Rings of Power,0,2022,,60,"['Action', 'Adventure', 'Drama']",6.9,427838
+tt13443470,tvSeries,Wednesday,Wednesday,0,2022,,45,"['Comedy', 'Crime', 'Fantasy']",8.0,426313
+tt0121955,tvSeries,South Park,South Park,0,1997,,22,"['Animation', 'Comedy']",8.7,425289
+tt0417299,tvSeries,Avatar: The Last Airbender,Avatar: The Last Airbender,0,2005,2008,23,"['Action', 'Adventure', 'Animation']",9.3,411475
+tt10986410,tvSeries,Ted Lasso,Ted Lasso,0,2020,,30,"['Comedy', 'Drama', 'Sport']",8.8,408859
+tt0306414,tvSeries,The Wire,The Wire,0,2002,2008,60,"['Crime', 'Drama', 'Thriller']",9.3,407829
