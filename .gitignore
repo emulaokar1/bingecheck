@@ -1,0 +1,19 @@
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Large data files
+data/raw/
+*.tsv.gz
+
+# Logs
+*.log
+data/*.log
+
+# IDE files
+.vscode/
+.idea/
+EOF
