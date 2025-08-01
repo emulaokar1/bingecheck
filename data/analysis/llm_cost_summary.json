@@ -1,0 +1,241 @@
+{
+  "total_all_time": {
+    "total_api_calls": 461,
+    "total_tokens_used": 188984,
+    "total_cost": 0.78,
+    "last_updated": "2025-07-29T23:12:13.746286"
+  },
+  "runs": [
+    {
+      "run_date": "2025-07-25T21:08:50.478968",
+      "api_calls": 3,
+      "tokens_used": 1502,
+      "cost": 0.01,
+      "shows_analyzed": "Historical"
+    },
+    {
+      "run_date": "2025-07-25T21:14:39.087833",
+      "api_calls": 3,
+      "tokens_used": 1495,
+      "cost": 0.01,
+      "shows_analyzed": 1
+    },
+    {
+      "run_date": "2025-07-25T21:19:59.763107",
+      "api_calls": 5,
+      "tokens_used": 2804,
+      "cost": 0.01,
+      "shows_analyzed": 3
+    },
+    {
+      "run_date": "2025-07-25T21:33:35.295114",
+      "api_calls": 5,
+      "tokens_used": 2714,
+      "cost": 0.01,
+      "shows_analyzed": 2
+    },
+    {
+      "run_date": "2025-07-25T21:39:46.706772",
+      "api_calls": 5,
+      "tokens_used": 2679,
+      "cost": 0.01,
+      "shows_analyzed": 3
+    },
+    {
+      "run_date": "2025-07-25T21:46:45.042920",
+      "api_calls": 5,
+      "tokens_used": 2744,
+      "cost": 0.01,
+      "shows_analyzed": 3
+    },
+    {
+      "run_date": "2025-07-25T21:48:17.213866",
+      "api_calls": 5,
+      "tokens_used": 2757,
+      "cost": 0.01,
+      "shows_analyzed": 3
+    },
+    {
+      "run_date": "2025-07-25T21:59:59.626340",
+      "api_calls": 8,
+      "tokens_used": 4194,
+      "cost": 0.02,
+      "shows_analyzed": 3
+    },
+    {
+      "run_date": "2025-07-25T22:12:04.435646",
+      "api_calls": 8,
+      "tokens_used": 3404,
+      "cost": 0.01,
+      "shows_analyzed": 3
+    },
+    {
+      "run_date": "2025-07-25T22:18:20.785557",
+      "api_calls": 8,
+      "tokens_used": 3410,
+      "cost": 0.01,
+      "shows_analyzed": 3
+    },
+    {
+      "run_date": "2025-07-26T12:22:10.275187",
+      "api_calls": 9,
+      "tokens_used": 3591,
+      "cost": 0.01,
+      "shows_analyzed": 3
+    },
+    {
+      "run_date": "2025-07-27T22:29:07.124752",
+      "api_calls": 9,
+      "tokens_used": 3543,
+      "cost": 0.01,
+      "shows_analyzed": 3
+    },
+    {
+      "run_date": "2025-07-27T22:32:43.489105",
+      "api_calls": 12,
+      "tokens_used": 5010,
+      "cost": 0.02,
+      "shows_analyzed": 5
+    },
+    {
+      "run_date": "2025-07-27T22:37:04.031830",
+      "api_calls": 12,
+      "tokens_used": 4525,
+      "cost": 0.02,
+      "shows_analyzed": 5
+    },
+    {
+      "run_date": "2025-07-27T22:40:12.308834",
+      "api_calls": 12,
+      "tokens_used": 4544,
+      "cost": 0.02,
+      "shows_analyzed": 5
+    },
+    {
+      "run_date": "2025-07-27T22:45:38.011156",
+      "api_calls": 12,
+      "tokens_used": 4581,
+      "cost": 0.02,
+      "shows_analyzed": 5
+    },
+    {
+      "run_date": "2025-07-27T22:49:58.351990",
+      "api_calls": 12,
+      "tokens_used": 4685,
+      "cost": 0.02,
+      "shows_analyzed": 5
+    },
+    {
+      "run_date": "2025-07-27T22:54:02.251606",
+      "api_calls": 12,
+      "tokens_used": 4661,
+      "cost": 0.02,
+      "shows_analyzed": 5
+    },
+    {
+      "run_date": "2025-07-29T20:29:34.739043",
+      "api_calls": 12,
+      "tokens_used": 4881,
+      "cost": 0.02,
+      "shows_analyzed": 5
+    },
+    {
+      "run_date": "2025-07-29T20:33:00.342587",
+      "api_calls": 12,
+      "tokens_used": 4836,
+      "cost": 0.02,
+      "shows_analyzed": 5
+    },
+    {
+      "run_date": "2025-07-29T20:36:42.460884",
+      "api_calls": 12,
+      "tokens_used": 4880,
+      "cost": 0.02,
+      "shows_analyzed": 5
+    },
+    {
+      "run_date": "2025-07-29T20:38:41.702586",
+      "api_calls": 12,
+      "tokens_used": 4812,
+      "cost": 0.02,
+      "shows_analyzed": 5
+    },
+    {
+      "run_date": "2025-07-29T20:42:55.543450",
+      "api_calls": 12,
+      "tokens_used": 4973,
+      "cost": 0.02,
+      "shows_analyzed": 5
+    },
+    {
+      "run_date": "2025-07-29T20:47:31.170166",
+      "api_calls": 12,
+      "tokens_used": 4793,
+      "cost": 0.02,
+      "shows_analyzed": 5
+    },
+    {
+      "run_date": "2025-07-29T20:49:34.452932",
+      "api_calls": 12,
+      "tokens_used": 4825,
+      "cost": 0.02,
+      "shows_analyzed": 5
+    },
+    {
+      "run_date": "2025-07-29T21:04:23.829230",
+      "api_calls": 12,
+      "tokens_used": 4276,
+      "cost": 0.02,
+      "shows_analyzed": 5
+    },
+    {
+      "run_date": "2025-07-29T21:06:39.672582",
+      "api_calls": 12,
+      "tokens_used": 4258,
+      "cost": 0.02,
+      "shows_analyzed": 5
+    },
+    {
+      "run_date": "2025-07-29T21:11:44.114860",
+      "api_calls": 12,
+      "tokens_used": 4222,
+      "cost": 0.02,
+      "shows_analyzed": 5
+    },
+    {
+      "run_date": "2025-07-29T21:14:55.735885",
+      "api_calls": 12,
+      "tokens_used": 4255,
+      "cost": 0.02,
+      "shows_analyzed": 5
+    },
+    {
+      "run_date": "2025-07-29T21:51:02.187288",
+      "api_calls": 12,
+      "tokens_used": 4188,
+      "cost": 0.02,
+      "shows_analyzed": 5
+    },
+    {
+      "run_date": "2025-07-29T21:53:37.739425",
+      "api_calls": 12,
+      "tokens_used": 4321,
+      "cost": 0.02,
+      "shows_analyzed": 5
+    },
+    {
+      "run_date": "2025-07-29T22:52:32.620017",
+      "api_calls": 12,
+      "tokens_used": 5084,
+      "cost": 0.02,
+      "shows_analyzed": 5
+    },
+    {
+      "run_date": "2025-07-29T23:12:13.746245",
+      "api_calls": 148,
+      "tokens_used": 61537,
+      "cost": 0.25,
+      "shows_analyzed": 50
+    }
+  ]
+}
