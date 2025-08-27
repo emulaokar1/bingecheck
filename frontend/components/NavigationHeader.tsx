@@ -2,15 +2,17 @@
 
 import Link from 'next/link';
 import { SimpleSearchBar } from './SimpleSearchBar';
+import { DropdownSearchBar } from './DropdownSearchBar';
 import { Search } from 'lucide-react';
 import { useState } from 'react';
 
 interface NavigationHeaderProps {
   onSearch?: (query: string) => void;
   showSearch?: boolean;
+  useDropdown?: boolean;
 }
 
-export function NavigationHeader({ onSearch, showSearch = true }: NavigationHeaderProps) {
+export function NavigationHeader({ onSearch, showSearch = true, useDropdown = false }: NavigationHeaderProps) {
   const [isMobileSearchOpen, setIsMobileSearchOpen] = useState(false);
 
   const handleSearch = (query: string) => {
@@ -38,10 +40,14 @@ export function NavigationHeader({ onSearch, showSearch = true }: NavigationHead
           {showSearch && (
             <div className="hidden md:flex flex-1 max-w-2xl mx-8">
               <div className="w-full">
-                <SimpleSearchBar 
-                  onSearch={handleSearch} 
-                  className="w-full max-w-none"
-                />
+                {useDropdown ? (
+                  <DropdownSearchBar className="w-full max-w-none" />
+                ) : (
+                  <SimpleSearchBar 
+                    onSearch={handleSearch} 
+                    className="w-full max-w-none"
+                  />
+                )}
               </div>
             </div>
           )}
@@ -66,10 +72,14 @@ export function NavigationHeader({ onSearch, showSearch = true }: NavigationHead
         {/* Mobile Search Bar (Collapsible) */}
         {showSearch && isMobileSearchOpen && (
           <div className="md:hidden pb-4 pt-2">
-            <SimpleSearchBar 
-              onSearch={handleSearch} 
-              className="w-full"
-            />
+            {useDropdown ? (
+              <DropdownSearchBar className="w-full" />
+            ) : (
+              <SimpleSearchBar 
+                onSearch={handleSearch} 
+                className="w-full"
+              />
+            )}
           </div>
         )}
       </div>

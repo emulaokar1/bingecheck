@@ -2,9 +2,10 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { Star, MessageSquare } from 'lucide-react';
+import { Star, MessageSquare, ArrowLeft } from 'lucide-react';
 import { Card, CardContent } from './ui/card';
 import { Badge } from './ui/badge';
+import { Button } from './ui/button';
 import { Show, EndingSentiment } from '../types';
 import { getRelatedShows } from '../lib/api';
 
@@ -13,6 +14,7 @@ interface RelatedShowsProps {
     id: number;
     genres: string[];
   };
+  showBackButton?: boolean;
 }
 
 const getSentimentColor = (sentiment: EndingSentiment) => {
@@ -41,7 +43,7 @@ const getSentimentText = (sentiment: EndingSentiment) => {
   }
 };
 
-export const RelatedShows = ({ currentShow, className = "" }: RelatedShowsProps & { className?: string }) => {
+export const RelatedShows = ({ currentShow, className = "", showBackButton = false }: RelatedShowsProps & { className?: string }) => {
   const [relatedShows, setRelatedShows] = useState<Show[]>([]);
   const [loading, setLoading] = useState(true);
 
@@ -65,7 +67,19 @@ export const RelatedShows = ({ currentShow, className = "" }: RelatedShowsProps 
   if (loading) {
     return (
       <div className={`space-y-3 ${className}`}>
-        <h2 className="text-lg font-semibold">Related Shows</h2>
+        <div className="flex items-center justify-between">
+          <h2 className="text-lg font-semibold">Related Shows</h2>
+          {showBackButton && (
+            <Button 
+              variant="ghost" 
+              size="sm" 
+              onClick={() => window.location.href = '/'}
+              className="text-black hover:bg-gray-100 p-2"
+            >
+              <ArrowLeft className="w-5 h-5" />
+            </Button>
+          )}
+        </div>
         <div className="hidden lg:block space-y-3 w-64 ml-2">
           {[1, 2, 3].map((i) => (
             <div key={i} className="animate-pulse">
@@ -83,7 +97,19 @@ export const RelatedShows = ({ currentShow, className = "" }: RelatedShowsProps 
 
   return (
     <div className={`space-y-3 ${className}`}>
-      <h2 className="text-lg font-semibold">Related Shows</h2>
+      <div className="flex items-center justify-between">
+        <h2 className="text-lg font-semibold">Related Shows</h2>
+        {showBackButton && (
+          <Button 
+            variant="ghost" 
+            size="sm" 
+            onClick={() => window.location.href = '/'}
+            className="text-black hover:bg-gray-100 p-2"
+          >
+            <ArrowLeft className="w-5 h-5" />
+          </Button>
+        )}
+      </div>
       
       {/* Desktop: Vertical stack */}
       <div className="hidden lg:block space-y-3 w-64 ml-2">

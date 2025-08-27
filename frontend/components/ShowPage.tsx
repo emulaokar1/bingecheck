@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { Badge } from "./ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { Button } from "./ui/button";
-import { Star, MessageCircle, TrendingUp, Heart, Clock, ThumbsUp, AlertTriangle, Zap } from "lucide-react";
+import { Star, MessageCircle, TrendingUp, Heart, Clock, ThumbsUp, AlertTriangle, Zap, ArrowLeft } from "lucide-react";
 import { RatingTrendChart } from "./RatingTrendChart";
 import { SpoilerCard } from "./SpoilerCard";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
@@ -66,19 +66,19 @@ export function ShowPage({ showId }: ShowPageProps) {
     );
   }
   const handleSearch = (query: string) => {
-    // Navigate to home page with search
-    window.location.href = `/?search=${encodeURIComponent(query)}`;
+    // This function is not used when useDropdown is true
+    // Navigation is handled by the DropdownSearchBar component
   };
 
   return (
     <div className="min-h-screen bg-background">
-      <NavigationHeader onSearch={handleSearch} showSearch={true} />
+      <NavigationHeader onSearch={handleSearch} showSearch={true} useDropdown={true} />
       
       <div className="mx-auto pl-4 pr-6 py-8 max-w-screen-2xl w-full">
         <div className="flex gap-12">
           {/* Left Sidebar - Related Shows */}
           <div className="hidden lg:block">
-            <RelatedShows currentShow={{ id: show.id, genres: show.genres }} />
+            <RelatedShows currentShow={{ id: show.id, genres: show.genres }} showBackButton={true} />
           </div>
           
           {/* Main Content */}
