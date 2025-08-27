@@ -22,10 +22,10 @@ export const SearchPage = () => {
     setIsLoading(true);
     try {
       const allShows = await getShows();
-      setShows(allShows.slice(0, 6)); // Limit to 6 shows
+      setShows(allShows.slice(0, 8)); // Limit to 8 shows
     } catch (error) {
       console.error('Error loading shows:', error);
-      setShows(mockShows.slice(0, 6)); // Fallback to mock data, limited to 6
+      setShows(mockShows.slice(0, 8)); // Fallback to mock data, limited to 8
     } finally {
       setIsLoading(false);
     }
@@ -37,9 +37,9 @@ export const SearchPage = () => {
     setIsLoading(true);
     try {
       const results = await searchShows(query);
-      // If no search query (empty), show only 6 popular shows
+      // If no search query (empty), show only 8 popular shows
       if (!query.trim()) {
-        setShows(results.slice(0, 6));
+        setShows(results.slice(0, 8));
       } else {
         setShows(results); // Show all search results
       }
